@@ -79,11 +79,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8        &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp PAGE_DOWN    &kp END       &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT    &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &to 0            &trans             &mkp LCLK        &trans           &to 1            &trans        &trans     &trans
+&kp GRAVE   &kp F1     &kp F2        &kp F3     &kp F4     &kp F5              &mmv MOVE_UP     &kp F6             &kp F7              &kp F8               &kp F9               &kp F10           &kp DELETE
+&trans      &trans     &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4            &mmv MOVE_DOWN   &kp PG_UP          &kp PAGE_DOWN       &kp END              &kp HOME             &kp MINUS         &kp EQUAL
+&trans      &trans     &trans        &trans     &trans     &mkp MB5            &mmv MOVE_LEFT   &kp LEFT           &kp DOWN            &kp UP_ARROW         &kp RIGHT            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans     &trans        &trans     &trans     &trans              &mmv MOVE_RIGHT  &kp LG(LEFT)       &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)  &trans            &trans
+&kp C_MUTE  &kp LCTRL  &kp LEFT_ALT  &kp LCMD   &to 0      &kp LEFT_BRACKET    &mkp LCLK        &kp RIGHT_BRACKET  &to 1               &kp RCMD             &kp RIGHT_ALT        &kp RCTRL
             >;
 
             display-name = "layer1";
