@@ -61,11 +61,11 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: NAV/M}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  NAV/M:
+  NAV:
   - {t: '`', s: '~'}
   - F1
   - F2
