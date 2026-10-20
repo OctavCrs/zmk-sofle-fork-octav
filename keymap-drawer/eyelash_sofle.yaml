@@ -90,8 +90,8 @@ layers:
   - PgUp
   - HOME
   - END
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - (
+  - )
   - $$mdi:keyboard-tab$$
   - F11
   - F12
@@ -103,22 +103,22 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Gui+[', s: 'Gui+{'}
-  - {t: 'Gui+]', s: 'Gui+}'}
-  - Gui+{
-  - Gui+}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:skip-previous$$
-  - $$mdi:skip-next$$
-  - PLAY PAUSE
-  - $$mdi:volume-off$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:volume-off$$
+  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
+  - '{'
+  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
